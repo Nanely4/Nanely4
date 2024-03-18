@@ -16,7 +16,8 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
     <h2>Welcome, <?php echo $_SESSION['username']; ?>!</h2>
-    <p>This is the protected content.</p>
+    <p>This is my website! It contains just these words in order to see it if actually works, thanks! </p>
+    <p>Make sure it actually work!</p>
     <a href="logout.php">Logout</a>
 </body>
 </html>
