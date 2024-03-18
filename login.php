@@ -1,23 +1,21 @@
 <?php
-session_start();
-// Change these credentials to match your database
-db_username = 'your_username';
-db_password = 'your_password';
+// Define hardcoded username and password
+$correct_username = "user123";
+$correct_password = "password123";
 
 // Check if form is submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    username = $_POST['username'];
-    password = $_POST['password'];
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
-    // Check if credentials are correct
-    if (username === db_username && password === db_password) {
-        // Authentication successful
-        $_SESSION['username'] = username;
-        header('Location: welcome.php');
+    // Verify username and password
+    if ($username === $correct_username && $password === $correct_password) {
+        // Authentication successful, redirect to dashboard or homepage
+        header('Location: dashboard.php');
         exit;
     } else {
         // Authentication failed
-        echo 'Invalid username or password. Please try again.';
+        echo 'Invalid username or password.';
     }
 }
 ?>
