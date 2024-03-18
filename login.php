@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Verify username and password
     if ($username === $correct_username && $password === $correct_password) {
         // Authentication successful, redirect to dashboard or homepage
-        header('Location: dashboard.php');
+        header('Location: welcome.php');
         exit;
     } else {
         // Authentication failed
