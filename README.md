@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi! My github is going under a couple of changes! Feel free to look around while I set things up!
 
 - 🔭 I’m currently working on a DNA sequence project
 - 🌱 I’m currently learning molecular biology, self-taught as I go back to graduate school
