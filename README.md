@@ -1,5 +1,13 @@
 ### Hi there 👋
 
+- 🔭 I’m currently working on a DNA sequence project
+- 🌱 I’m currently learning molecular biology, self-taught as I go back to graduate school
+- 👯 I’m looking to collaborate on a project that will help me understand more on the project that I'm working on
+- 🤔 I’m looking for help with my DNA sequence project
+- 💬 Ask me about my interests and how I got here!
+- 😄 Pronouns: She/Her
+- ⚡ Fun fact: I like to eat different kinds of food and travel! :)
+
 <!--
 **Nanely4/Nanely4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
